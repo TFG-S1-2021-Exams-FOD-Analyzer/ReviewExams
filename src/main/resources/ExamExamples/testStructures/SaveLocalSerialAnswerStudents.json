@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "idRespuestaEstudianteXExamen": 14,
+      "PuntajeObtenido": 10.0
+    },
+    {
+      "idRespuestaEstudianteXExamen": 12,
+      "PuntajeObtenido": 11.666666666666666
+    },
+    {
+      "idRespuestaEstudianteXExamen": 13,
+      "PuntajeObtenido": 10.0
+    },
+    {
+      "idRespuestaEstudianteXExamen": 11,
+      "PuntajeObtenido": 15.0
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 24,
+      "PuntajeObtenido": 10.0
+    },
+    {
+      "idRespuestaEstudianteXExamen": 22,
+      "PuntajeObtenido": 11.666666666666666
+    },
+    {
+      "idRespuestaEstudianteXExamen": 23,
+      "PuntajeObtenido": 10.0
+    },
+    {
+      "idRespuestaEstudianteXExamen": 21,
+      "PuntajeObtenido": 15.0
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 34,
+      "PuntajeObtenido": 10.0
+    },
+    {
+      "idRespuestaEstudianteXExamen": 32,
+      "PuntajeObtenido": 11.666666666666666
+    },
+    {
+      "idRespuestaEstudianteXExamen": 33,
+      "PuntajeObtenido": 10.0
+    },
+    {
+      "idRespuestaEstudianteXExamen": 31,
+      "PuntajeObtenido": 15.0
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 44,
+      "PuntajeObtenido": 10.0
+    },
+    {
+      "idRespuestaEstudianteXExamen": 42,
+      "PuntajeObtenido": 11.666666666666666
+    },
+    {
+      "idRespuestaEstudianteXExamen": 43,
+      "PuntajeObtenido": 10.0
+    },
+    {
+      "idRespuestaEstudianteXExamen": 41,
+      "PuntajeObtenido": 15.0
+    }
+  ]
+]

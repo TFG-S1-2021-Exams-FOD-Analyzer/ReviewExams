@@ -1,0 +1,354 @@
+[
+  [
+    {
+      "idRespuestaEstudianteXExamen": 14,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandera: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 12,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteraCion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 13,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + aniDado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 11,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + aniDado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 24,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandEra: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 22,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteraCion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 23,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 21,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 34,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandera: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 32,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteracion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 33,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 31,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 44,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandEra: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 42,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteraCion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 43,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 41,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 14,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandera: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 12,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteraCion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 13,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + aniDado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 11,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + aniDado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 24,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandEra: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 22,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteraCion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 23,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 21,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 34,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandera: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 32,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteracion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 33,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 31,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 44,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandEra: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 42,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteraCion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 43,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 41,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 14,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandera: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 12,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteraCion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 13,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + aniDado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 11,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + aniDado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 24,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandEra: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 22,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteraCion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 23,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 21,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 34,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandera: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 32,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteracion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 33,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 31,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 44,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandEra: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 42,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteraCion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 43,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 41,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 14,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandera: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 12,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteraCion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 13,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + aniDado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 11,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + aniDado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 24,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandEra: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 22,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteraCion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 23,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 21,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 34,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandera: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 32,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteracion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 33,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 31,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ],
+  [
+    {
+      "idRespuestaEstudianteXExamen": 44,
+      "idItem": 164,
+      "Respuesta": "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandEra: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 42,
+      "idItem": 174,
+      "Respuesta": "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteraCion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 43,
+      "idItem": 184,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    },
+    {
+      "idRespuestaEstudianteXExamen": 41,
+      "idItem": 194,
+      "Respuesta": "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteraCion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+    }
+  ]
+]

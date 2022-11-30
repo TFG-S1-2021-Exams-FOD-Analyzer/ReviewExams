@@ -1,0 +1,68 @@
+@startuml
+  namespace Structures {
+      namespace DataBaseStructures {
+
+        class Structures.DataBaseStructures.ExeAnswer {
+        }
+
+        class Structures.DataBaseStructures.Condition {
+            + Cantidad : int
+            + Nombre : String
+            + Peso : double
+            + idCondicion : int
+        }
+
+        class Structures.DataBaseStructures.Solution {
+            + Peso_clon1 : int
+            + Peso_clon2 : int
+            + Peso_clon3 : int
+            + Respuesta : String
+        }
+
+        class Structures.DataBaseStructures.Item {
+            + MappedSolutions : ArrayList<String>
+            + idItem : int
+            - Conditions : ArrayList<Condition>
+            - ExeAnswers : ArrayList<ExeAnswer>
+            - Solutions : ArrayList<Solution>
+            + Item()
+            + getConditions()
+            + getExeAnswers()
+            + getSolutions()
+            + setCondSoluAnsw()
+        }
+
+        class Structures.DataBaseStructures.AnswerXStudentXItemXExam {
+            + PuntajeObtenido : int
+            + Respuesta : String
+            + RespuestaMapeada : String
+            + idItem : int
+            + idRespuestaEstudianteXExamen : int
+            + respuestasXEtapa : double[]
+        }
+
+        class Structures.DataBaseStructures.Student {
+            + idEstudiante : int
+        }
+
+        class Structures.DataBaseStructures.Exam {
+            - Items : ArrayList<Item>
+            - Students : ArrayList<Student>
+            - _Id : int
+            + Exam()
+            + getStudents()
+            + get_Id()
+            + get_Items()
+            + setStudents_Items()
+        }
+        Structures.DataBaseStructures.Exam *-- Structures.DataBaseStructures.Item
+        Structures.DataBaseStructures.Exam *-- Structures.DataBaseStructures.Student
+        Structures.DataBaseStructures.Item *-- Structures.DataBaseStructures.Condition
+        Structures.DataBaseStructures.Item *-- Structures.DataBaseStructures.Solution
+        Structures.DataBaseStructures.Item *-- Structures.DataBaseStructures.ExeAnswer
+        Structures.DataBaseStructures.Student ..> Structures.DataBaseStructures.AnswerXStudentXItemXExam
+      }
+    }
+
+
+@enduml

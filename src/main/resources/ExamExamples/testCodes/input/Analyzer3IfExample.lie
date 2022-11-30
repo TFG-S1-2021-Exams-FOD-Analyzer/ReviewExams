@@ -1,0 +1,24 @@
+para principal ()
+    bandera := verdadero
+    si (bandera = verdadero) entonces
+        imprimir("bandera: " + verdadero)
+    sino
+        imprimir("bandera: " + falso)
+    fin
+
+    bandera := falso
+    si (bandera = verdadero) entonces
+        imprimir("bandera: " + bandera)
+    sino
+        imprimir("bandera: " + bandera)
+    fin
+
+    num := 5
+    si (num < 5) entonces
+        imprimir("num es menor que 5")
+    sino si (num > 5) entonces
+        imprimir("num es mayor que 5")
+    sino
+        imprimir("num es igual a 5")
+    fin
+fin

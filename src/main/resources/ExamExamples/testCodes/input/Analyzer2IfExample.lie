@@ -1,0 +1,25 @@
+para sumatoria(pInicio, pFin)
+    contador := pFin
+    respuesta := 0
+    si (pFin < pInicio) entonces
+        devolver "ERROR: EL INICIO DEL RANGO DEBE SER <= AL FIN DEL RANGO"
+    fin
+    si ((pInicio * 2 mod 2) = 1 o (pFin * 2 mod 2) = 1) entonces
+        devolver "ERROR: LAS ENTRADAS DEBEN SER NUMEROS ENTEROS"
+    sino
+        mientras(contador >= pInicio) haga
+            respuesta := respuesta + contador
+            contador := contador -1
+        fin
+        devolver respuesta
+    fin
+fin
+
+para principal()
+    respuestaSum := sumatoria(10, 155)
+    imprimir(respuestaSum)
+    respuestaSum := sumatoria(8.5, 15)
+    imprimir(respuestaSum)
+    respuestaSum := sumatoria(250, 8)
+    imprimir(respuestaSum)
+fin

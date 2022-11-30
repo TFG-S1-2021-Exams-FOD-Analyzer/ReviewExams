@@ -1,0 +1,22 @@
+@startuml
+
+  namespace Structures {
+    namespace ClientStructures {
+      class Structures.ClientStructures.URL_PATHS {
+          # AGENT : String
+          # BASE_LINK : String
+          # GRADE_TO_STUDENT : String
+          # ITEM_BY_ID : String
+          # ITEM_CONDITIONS : String
+          # ITEM_SOLUTIONS : String
+          # SOL_STUDENT_EXAM_ITEM : String
+          # STUDENTS : String
+          + URL_PATHS()
+          + printInfo()
+          - DeserializeFromJson()
+      }
+    }
+  }
+
+
+@enduml

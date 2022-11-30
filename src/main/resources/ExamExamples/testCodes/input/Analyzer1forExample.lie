@@ -1,0 +1,27 @@
+para fibonacci(pNumero)
+    si (pNumero > 0) entonces
+        arreglo := [pNumero]
+        arreglo[0] := 0
+        si (pNumero = 1) entonces
+            devolver arreglo
+        fin
+        arreglo[1] := 1
+        si (pNumero = 2) entonces
+            devolver arreglo
+        fin
+        contador := 2
+        repetir (pNumero - 2) veces
+            arreglo[contador] := arreglo[contador - 2] + arreglo[contador - 1]
+            contador := contador + 1
+        fin
+        devolver arreglo
+    sino
+        devolver "Error: Debe ingresar un valor mayor que 0"
+    fin
+fin
+
+para principal()
+    imprimir(fibonacci(5))
+    imprimir(fibonacci(8))
+    imprimir(fibonacci(1))
+fin

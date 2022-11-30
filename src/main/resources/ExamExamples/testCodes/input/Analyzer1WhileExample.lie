@@ -1,0 +1,21 @@
+para primosGemelos(pInicio, pFin)
+    si (pInicio < pFin) entonces
+        contador := pInicio
+        mientras(contador < pFin) haga
+            primo := esPrimo(contador)
+            si (primo) entonces
+                primoGemelo := esPrimo(contador + 2)
+                si (primoGemelo) entonces
+                    imprimir(contador + " y " + (contador + 2))
+                fin
+            fin
+            contador := contador + 1
+        fin
+    sino
+        imprimir("ERROR: EL INICIO DEL RANGO DEBE SER < AL FIN DEL RANGO")
+    fin
+fin
+
+para principal()
+    primosGemelos(2, 43)
+fin

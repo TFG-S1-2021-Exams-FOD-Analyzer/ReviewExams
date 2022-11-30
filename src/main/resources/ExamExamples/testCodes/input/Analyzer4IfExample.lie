@@ -1,0 +1,39 @@
+para dobleFactorial(pNumero)
+    factorial := 1
+    si (pNumero = 0) entonces
+        devolver factorial
+    fin
+    si ((pNumero mod 2) diferente 1) entonces // Es par
+        contador := 2
+        mientras (contador <= pNumero) haga
+            factorial := factorial * contador
+            contador := contador + 2
+        fin
+    fin
+    si ((pNumero mod 2) igual 1) entonces // Es impar
+        contador := 1
+        mientras (contador <= pNumero) haga
+            factorial := factorial * contador
+            contador := contador + 2
+        fin
+    fin
+    devolver factorial
+fin
+
+para dobleFactorial(pNumero)
+    factorial := 1
+    si ((pNumero mod 2) igual 1) entonces // Es impar
+        contador := 1
+        mientras (contador <= pNumero) haga
+            factorial := factorial * contador
+            contador := contador + 2
+        fin
+    fin
+    devolver factorial
+fin
+
+para principal()
+    imprimir(dobleFactorial(9))
+    imprimir(dobleFactorial(8))
+    imprimir(dobleFactorial(0))
+fin

@@ -1,0 +1,157 @@
+{
+  "_Id": 224,
+  "Students": [
+    {"idEstudiante": 13}
+  ],
+  "Items": [
+    {
+      "idItem": 164,
+      "Puntaje": 25,
+      "Conditions": [
+        {
+          "idCondicion": 1,
+          "Nombre": "if",
+          "Peso": 20.0,
+          "Cantidad": 2
+        }
+      ],
+      "Solutions": {
+        "Respuesta": [
+          "para principal ()\n    bandera :\u003d verdadero\n    si (bandera \u003d verdadero) entonces\n        imprimir(\"bandera: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin",
+          "para sumatoria(pInicio, pFin)\n    contador :\u003d pFin\n    respuesta :\u003d 0\n    si (pFin \u003c pInicio) entonces\n        devolver \"ERROR: EL INICIO DEL RANGO DEBE SER \u003c\u003d AL FIN DEL RANGO\"\n    fin\n    si ((pInicio * 2 mod 2) \u003d 1 o (pFin * 2 mod 2) \u003d 1) entonces\n        devolver \"ERROR: LAS ENTRADAS DEBEN SER NUMEROS ENTEROS\"\n    sino\n        mientras(contador \u003e\u003d pInicio) haga\n            respuesta :\u003d respuesta + contador\n            contador :\u003d contador -1\n        fin\n        devolver respuesta\n    fin\nfin\n\npara principal()\n    respuestaSum :\u003d sumatoria(10, 155)\n    imprimir(respuestaSum)\n    respuestaSum :\u003d sumatoria(8.5, 15)\n    imprimir(respuestaSum)\n    respuestaSum :\u003d sumatoria(250, 8)\n    imprimir(respuestaSum)\nfin"
+        ],
+        "Peso_clon": 10.0
+      },
+      "ExeAnswers": {
+        "Respuesta": [
+          "bandera: verdadero"
+        ],
+        "peso": 20.0
+      },
+      "MappedSolutions": []
+    },
+    {
+      "idItem": 174,
+      "Puntaje": 25,
+      "Conditions": [
+        {
+          "idCondicion": 2,
+          "Nombre": "For",
+          "Peso": 20.0,
+          "Cantidad": 3
+        }
+      ],
+      "Solutions": {
+        "Respuesta": [
+          "para fibonacci(pNumero)\n    si (pNumero \u003e 0) entonces\n        arreglo :\u003d [pNumero]\n        arreglo[0] :\u003d 0\n        si (pNumero \u003d 1) entonces\n            devolver arreglo\n        fin\n        arreglo[1] :\u003d 1\n        si (pNumero \u003d 2) entonces\n            devolver arreglo\n        fin\n        contador :\u003d 2\n        repetir (pNumero - 2) veces\n            arreglo[contador] :\u003d arreglo[contador - 2] + arreglo[contador - 1]\n            contador :\u003d contador + 1\n        fin\n        devolver arreglo\n    sino\n        devolver \"Error: Debe ingresar un valor mayor que 0\"\n    fin\nfin\n\npara principal()\n    imprimir(fibonacci(5))\n    imprimir(fibonacci(8))\n    imprimir(fibonacci(1))\nfin",
+          "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteracion: \" + iteracion)\n        anidado :\u003d 0\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin",
+          "para principal ()\n    num :\u003d 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num :\u003d num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion :\u003d 0\n    repetir (num + 1) veces\n        imprimir(\"iteracion: \" + iteracion)\n        anidado :\u003d 0\n        repetir (2) veces\n            imprimir(\"iteracion anidada: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        iteracion :\u003d iteracion + 1\n    fin\n    \nfin"
+        ],
+        "Peso_clon": 10
+      },
+      "ExeAnswers": {
+        "Respuesta": [
+          "valor de num: 0",
+          "valor de num: 1",
+          "valor de num: 2",
+          "iteracion: 0",
+          "iteracion: 1",
+          "iteracion: 2",
+          "iteracion: 3"
+        ],
+        "peso": 20.0
+      },
+      "MappedSolutions": []
+    },
+    {
+      "idItem": 184,
+      "Puntaje": 25,
+      "Conditions": [
+        {
+          "idCondicion": 1,
+          "Nombre": "if",
+          "Peso": 10.0,
+          "Cantidad": 2
+        },
+        {
+          "idCondicion": 3,
+          "Nombre": "While",
+          "Peso": 10.0,
+          "Cantidad": 2
+        }
+      ],
+      "Solutions": {
+        "Respuesta": [
+          "para primosGemelos(pInicio, pFin)\n    si (pInicio \u003c pFin) entonces\n        contador :\u003d pInicio\n        mientras(contador \u003c pFin) haga\n            primo :\u003d esPrimo(contador)\n            si (primo) entonces\n                primoGemelo :\u003d esPrimo(contador + 2)\n                si (primoGemelo) entonces\n                    imprimir(contador + \" y \" + (contador + 2))\n                fin\n            fin\n            contador :\u003d contador + 1\n        fin\n    sino\n        imprimir(\"ERROR: EL INICIO DEL RANGO DEBE SER \u003c AL FIN DEL RANGO\")\n    fin\nfin\n\npara principal()\n    primosGemelos(2, 43)\nfin",
+          "para dobleFactorial(pNumero)\n    factorial :\u003d 1\n    si (pNumero \u003d 0) entonces\n        devolver factorial\n    fin\n    si ((pNumero mod 2) diferente 1) entonces // Es par\n        contador :\u003d 2\n        mientras (contador \u003c\u003d pNumero) haga\n            factorial :\u003d factorial * contador\n            contador :\u003d contador + 2\n        fin\n    fin\n    si ((pNumero mod 2) igual 1) entonces // Es impar\n        contador :\u003d 1\n        mientras (contador \u003c\u003d pNumero) haga\n            factorial :\u003d factorial * contador\n            contador :\u003d contador + 2\n        fin\n    fin\n    devolver factorial\nfin\n\npara dobleFactorial1(pNumero)\n    factorial :\u003d 1\n    si ((pNumero mod 2) igual 1) entonces // Es impar\n        contador :\u003d 1\n        mientras (contador \u003c\u003d pNumero) haga\n            factorial :\u003d factorial * contador\n            contador :\u003d contador + 2\n        fin\n    fin\n    devolver factorial\nfin\n\npara principal()\n    imprimir(dobleFactorial(9))\n    imprimir(dobleFactorial(8))\n    imprimir(dobleFactorial(0))\nfin",
+          "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin"
+        ],
+        "Peso_clon": 10
+      },
+      "ExeAnswers": {
+        "Respuesta": [
+          "iteracion: 0",
+          "anidado: 0",
+          "anidado: 1",
+          "anidado: 2",
+          "iteracion: 1",
+          "anidado: 0",
+          "anidado: 1",
+          "anidado: 2",
+          "iteracion: 2",
+          "anidado: 0",
+          "anidado: 1",
+          "anidado: 2",
+          "iteracion: 3",
+          "anidado: 0",
+          "anidado: 1",
+          "anidado: 2"
+        ],
+        "peso": 20.0
+      },
+      "MappedSolutions": []
+    },
+    {
+      "idItem": 194,
+      "Puntaje": 25,
+      "Conditions": [
+        {
+          "idCondicion": 3,
+          "Nombre": "While",
+          "Peso": 20.0,
+          "Cantidad": 3
+        }
+      ],
+      "Solutions": {
+        "Respuesta": [
+          "para principal ()\n    i :\u003d 0\n    mientras(i \u003c\u003d 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado :\u003d 0\n        mientras (anidado \u003c\u003d 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado :\u003d anidado + 1\n        fin\n        i :\u003d i + 1\n    fin\nfin",
+          "para dobleFactorial(pNumero)\n    factorial :\u003d 1\n    si (pNumero \u003d 0) entonces\n        devolver factorial\n    fin\n    si ((pNumero mod 2) diferente 1) entonces // Es par\n        contador :\u003d 2\n        mientras (contador \u003c\u003d pNumero) haga\n            factorial :\u003d factorial * contador\n            contador :\u003d contador + 2\n        fin\n    fin\n    si ((pNumero mod 2) igual 1) entonces // Es impar\n        contador :\u003d 1\n        mientras (contador \u003c\u003d pNumero) haga\n            factorial :\u003d factorial * contador\n            contador :\u003d contador + 2\n        fin\n    fin\n    devolver factorial\nfin\n\npara dobleFactorial1(pNumero)\n    factorial :\u003d 1\n    si ((pNumero mod 2) igual 1) entonces // Es impar\n        contador :\u003d 1\n        mientras (contador \u003c\u003d pNumero) haga\n            factorial :\u003d factorial * contador\n            contador :\u003d contador + 2\n        fin\n    fin\n    devolver factorial\nfin\n\npara principal()\n    imprimir(dobleFactorial(9))\n    imprimir(dobleFactorial(8))\n    imprimir(dobleFactorial(0))\nfin",
+          "para primosGemelos(pInicio, pFin)\n    si (pInicio \u003c pFin) entonces\n        contador :\u003d pInicio\n        mientras(contador \u003c pFin) haga\n            primo :\u003d esPrimo(contador)\n            si (primo) entonces\n                primoGemelo :\u003d esPrimo(contador + 2)\n                si (primoGemelo) entonces\n                    imprimir(contador + \" y \" + (contador + 2))\n                fin\n            fin\n            contador :\u003d contador + 1\n        fin\n    sino\n        imprimir(\"ERROR: EL INICIO DEL RANGO DEBE SER \u003c AL FIN DEL RANGO\")\n    fin\nfin\n\npara principal()\n    primosGemelos(2, 43)\nfin"
+        ],
+        "Peso_clon": 10
+      },
+      "ExeAnswers": {
+        "Respuesta": [
+          "iteracion: 0",
+          "anidado: 0",
+          "anidado: 1",
+          "anidado: 2",
+          "iteracion: 1",
+          "anidado: 0",
+          "anidado: 1",
+          "anidado: 2",
+          "iteracion: 2",
+          "anidado: 0",
+          "anidado: 1",
+          "anidado: 2",
+          "iteracion: 3",
+          "anidado: 0",
+          "anidado: 1",
+          "anidado: 2"
+        ],
+        "peso": 20.0
+      },
+      "MappedSolutions": []
+    }
+  ]
+}

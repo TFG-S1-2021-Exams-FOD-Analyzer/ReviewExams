@@ -1,0 +1,14 @@
+[
+  { "idRespuestaEstudianteXExamen": 1,
+    "idItem" : 39,
+    "Respuesta": "para principal ()\n    i := 0\n    mientras(i <= 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado := 0\n        mientras (anidado <= 2) haga\n            imprimir(\"anidado: \" + aniDado)\n            anidado := anidado + 1\n        fin\n        i := i + 1\n    fin\n    mientras(i <= 3) haga\n        imprimir(\"iteracion: \" + i)\n        anidado := 0\n        mientras (anidado <= 2) haga\n            imprimir(\"anidado: \" + anidado)\n            anidado := anidado + 1\n        fin\n        i := i + 1\n    fin\nfin"
+  },
+  { "idRespuestaEstudianteXExamen": 45,
+    "idItem" : 42,
+    "Respuesta": "para principal ()\n    num := 0\n    repetir (3) veces\n        imprimir(\"valor de num: \" + num)\n        num := num + 1\n    fin\n    \n    //Ciclo anidado\n    iteracion := 0\n    repetir (num + 1) veces\n        imprimir(\"iteraCion: \" + iteracion)\n        anidado := 0\n        iteracion := iteracion + 1\n    fin\n    \nfin"
+  },
+  { "idRespuestaEstudianteXExamen": 46,
+    "idItem" : 43,
+    "Respuesta": "para principal ()\n    bandera := verdadero\n    si (bandera = verdadero) entonces\n        imprimir(\"bandera: \" + verdadero)\n    sino\n        imprimir(\"bandera: \" + falso)\n    fin\nfin"
+  }
+]

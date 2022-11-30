@@ -1,0 +1,16 @@
+para principal ()
+    num := 0
+    repetir (3) veces
+        imprimir("valor de num: " + num)
+        num := num + 1
+    fin
+    
+    //Ciclo anidado
+    iteracion := 0
+    repetir (num + 1) veces
+        imprimir("iteracion: " + iteracion)
+        anidado := 0
+        iteracion := iteracion + 1
+    fin
+    
+fin

@@ -1,0 +1,20 @@
+[
+  {
+    "idCondicion": 14,
+    "Nombre": "Else",
+    "Peso": "0.30",
+    "Cantidad": "4"
+  },
+  {
+    "idCondicion": 4,
+    "Nombre": "Do-while",
+    "Peso": "0.50",
+    "Cantidad": "3"
+  },
+  {
+    "idCondicion": 1,
+    "Nombre": "if",
+    "Peso": "0.20",
+    "Cantidad": "5"
+  }
+]

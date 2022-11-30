@@ -1,0 +1,8 @@
+para principal ()
+    bandera := verdadero
+    si (bandera = verdadero) entonces
+        imprimir("bandera: " + verdadero)
+    sino
+        imprimir("bandera: " + falso)
+    fin
+fin

@@ -1,0 +1,21 @@
+para principal ()
+    i := 0
+    mientras(i <= 3) haga
+        imprimir("iteracion: " + i)
+        anidado := 0
+        mientras (anidado <= 2) haga
+            imprimir("anidado: " + anidado)
+            anidado := anidado + 1
+        fin
+        i := i + 1
+    fin
+    mientras(i <= 3) haga
+        imprimir("iteracion: " + i)
+        anidado := 0
+        mientras (anidado <= 2) haga
+            imprimir("anidado: " + anidado)
+            anidado := anidado + 1
+        fin
+        i := i + 1
+    fin
+fin

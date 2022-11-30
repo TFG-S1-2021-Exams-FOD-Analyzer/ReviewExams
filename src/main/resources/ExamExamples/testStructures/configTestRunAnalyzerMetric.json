@@ -1,0 +1,34 @@
+[
+  {
+    "metrics": [
+      {
+        "language": "LIE",
+        "metricToApply": "CLONE_DETECTION",
+        "outputPath" : "C:\\Users\\ellio\\Documents\\GitHub\\test\\testAnalyzerTFG\\testCodes\\output",
+        "inputPaths":[{
+          "inputPath":"C:\\Users\\ellio\\Documents\\GitHub\\test\\testAnalyzerTFG\\testCodes\\input",
+          "isFolder":true,
+          "isJSONFile":false
+        }
+        ],
+        "inputParameters": [false]
+      }
+    ]
+  },
+  {
+    "metrics": [
+      {
+        "language": "LIE",
+        "metricToApply": "CONTROL_STATEMENT",
+        "outputPath" : "C:\\Users\\ellio\\Documents\\GitHub\\test\\testMetrics\\output",
+        "inputPaths":[{
+          "inputPath":"C:\\Users\\ellio\\Documents\\GitHub\\test\\testMetrics\\input\\resultFibonacci.json",
+          "isFolder":false,
+          "isJSONFile":true
+        }
+        ],
+        "inputParameters": [false]
+      }
+    ]
+  }
+]
