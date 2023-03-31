@@ -6,10 +6,10 @@ import ExamReviewer.ExamMetada.DataBaseStructures.Condition;
 import ExamReviewer.ExamMetada.DataBaseStructures.Item;
 import ExamReviewer.ExamMetada.UTILS.UtilsStructure;
 import gastmappers.Language;
-import metrics.ExamCompleteMetric.MetricClass;
-import metrics.ExamCompleteMetric.MetricMethod;
-import metrics.contolstatement.ControlStatementMetric;
-import metrics.contolstatement.InputControlStatement;
+import metrics.examcompletemetric.MetricClass;
+import metrics.examcompletemetric.MetricMethod;
+import metrics.structure.contolstatement.ControlStatementMetric;
+import metrics.structure.contolstatement.InputControlStatement;
 
 public class AnalyzeStructure1Code1Item extends Analyze1Code1Item {
     private double[] halfWayGrade;
